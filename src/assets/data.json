@@ -1,0 +1,172 @@
+{
+  "data":[ {
+    "bookId": 101,
+    "title": "Angular JS",
+    "author": "Green",
+    "genre": "StudyMaterial",
+    "copies": 5
+  },
+  {
+    "bookId": 102,
+    "title": "Pro ASP.Net Core 3",
+    "author": "Adam Freeman",
+    "genre": "StudyMaterial",
+    "copies": 6
+  },
+  {
+    "bookId": 103,
+    "title": "Programming AP.Net Core",
+    "author": "Dino Espacilo",
+    "genre": "StudyMaterial",
+    "copies": 3
+  },
+  {
+    "bookId": 104,
+    "title": "Develping BackboneJS Applications",
+    "author": "Addy Osmani",
+    "genre": "StudyMaterial",
+    "copies": 10
+  },
+  {
+    "bookId": 105,
+    "title": "Backbone.js Patterns and Best Practices",
+    "author": "Swarnendu De",
+    "genre": "StudyMaterial",
+    "copies": 2
+  },
+  {
+    "bookId": 106,
+    "title": "Ember.js in Action",
+    "author": "Joachim Haagen Skeie",
+    "genre": "StudyMaterial",
+    "issued": false,
+    "copies": 5
+  },
+  {
+    "bookId": 107,
+    "title": "Mastering Ember.js",
+    "author": "Mitchel Kelonye",
+    "genre": "StudyMaterial",
+    "copies": 6
+  },
+  {
+    "bookId": 108,
+    "title": "Developing an EmberJS Edge",
+    "author": "Jamie White and Matthew Beale",
+    "genre": "StudyMaterial",
+    "copies": 9
+  },
+  {
+    "bookId": 109,
+    "title": "Node.js in Action",
+    "author": "Mike Cantelon and Marc Harter",
+    "genre": "StudyMaterial",
+    "copies": 11
+  },
+  {
+    "bookId": 110,
+    "title": "Node.js in the Right Way",
+    "author": "Jim R. Wilson",
+    "genre": "StudyMaterial",
+    "copies": 8
+  },
+  {
+    "bookId": 111,
+    "title": "Pro Node.js for Developers",
+    "author": "Colin Ihrig",
+    "genre": "StudyMaterial",
+    "copies": 2
+  },
+  {
+    "bookId": 112,
+    "title": "Pro Node.js for Developers",
+    "author": "Colin Ihrig",
+    "genre": "StudyMaterial",
+    "copies": 2
+  },
+  {
+    "bookId": 113,
+    "title": "Three Mistakes of my Life",
+    "author": "Chetan Bhagat",
+    "genre": "Fiction",
+    "copies": 2
+  },
+  {
+    "bookId": 114,
+    "title": "Half girlfriend",
+    "author": "Chetan Bhagat",
+    "genre": "Fiction",
+    "copies": 3
+  },
+  {
+    "bookId": 115,
+    "title": "Young India",
+    "author": "Chetan Bhagat",
+    "genre": "Fiction",
+    "copies": 5
+  },
+  {
+    "bookId": 116,
+    "title": "Hunter's Moon",
+    "author": "Adam C.Downing ",
+    "genre": "Thriller",
+    "copies": 2
+  },
+  {
+    "bookId": 117,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genre": "Horror",
+    "copies": 4
+  },
+  {
+    "bookId": 118,
+    "title": "The Haunting of hill house",
+    "author": "Shirley Jackson",
+    "genre": "Horror",
+    "copies": 2
+  },
+  {
+    "bookId": 119,
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "genre": "Historical",
+    "copies": 2
+  },
+  {
+    "bookId": 120,
+    "title": "An Army at Dawn",
+    "author": "Rick Atkinson",
+    "genre": "Historical",
+    "copies": 7
+  },
+  {
+    "bookId": 121,
+    "title": "A Game of Thrones",
+    "author": "George R. R. Martin",
+    "genre": "Fantasy",
+    "copies": 7
+  },
+  {
+    "bookId": 122,
+    "title": "The Fifth Season",
+    "author": "N. K. Jemisin",
+    "genre": "Fantasy",
+    "copies": 5
+  },
+  {
+    "bookId": 123,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": "Thriller",
+    "copies": 5
+  },
+  {
+    "bookId": 124,
+    "title": "Duplicity",
+    "author": "Shawn Wilson",
+    "genre": "Thriller",
+    "copies": 6
+  }
+]
+}

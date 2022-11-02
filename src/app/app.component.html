@@ -1,0 +1,28 @@
+<div>
+  <div class="text-center">
+    <h1 class="text-uppercase">Library Management System</h1>
+  </div>
+  <hr />
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6" *ngFor="let list of genreUnique">
+      <div class="main-div">
+        <div
+          class="card border-dark mb-3 winner-card"
+          (click)="onClickGenre(list)"
+        >
+          <div class="card text-center">
+            <div class="col-sm d-flex">
+              <div class="card card-body flex-fill">
+                <h4 class="text-primary GridCard">
+                  {{ list }}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

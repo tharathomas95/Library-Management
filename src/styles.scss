@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1,h2,h3,h4,h5,h6 {
+    color: red;
+    }
+
+  body {
+    background-image: url(assets/pexels-photo-590493.png);
+    background-size: 950px 950px;
+    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+  }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

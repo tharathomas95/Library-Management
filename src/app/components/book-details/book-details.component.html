@@ -1,0 +1,56 @@
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myModalLabel"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog"
+    style="
+      overflow-y: scroll;
+      max-height: 85%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    "
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <a routerLink="./back" class="nav__item"> Back </a> -->
+        <!-- <button (click)="back()">Go back</button> -->
+        <button (click)="activeModal.close('Close click')">Back</button>
+        <button
+          type="button"
+          class="btn-close"
+          aria-label="Close"
+          (click)="activeModal.close('Close click')"
+        ></button>
+      </div>
+
+      <div class="modal-body">
+        <p>Books</p>
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-6"
+            *ngFor="let book of actualbooks; let i = index"
+          >
+            <div
+              class="card w-100 mb-3 winner-card"
+              (click)="onClickBook(book)"
+            >
+              <div class="card text-center">
+                <div class="col-sm d-flex">
+                  <div class="card card-body flex-fill">
+                    <h4 class="text-primary GridCard">
+                      {{ book.title }}
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

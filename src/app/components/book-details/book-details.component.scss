@@ -1,0 +1,33 @@
+
+.modal {
+    display: block !important;
+}
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body {
+    height: 800px;
+    overflow-y: auto;
+}
+
+.GridCard {
+    flex: 1 1 0px;
+    flex-grow: 1;
+    width: 170px;
+  }
+
+  .winner-card {
+    -webkit-box-shadow: inset 0px 0px 35px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 35px -30px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 35px -30px rgba(0,0,0,0.75);
+    cursor: pointer;
+  
+    &:hover{
+    -webkit-box-shadow: 0px 0px 71px -31px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 71px -31px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 71px -31px rgba(0,0,0,0.75);
+    }
+  }
+  
